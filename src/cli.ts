@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+/* eslint no-console:off */
 import { exec as callbackExec } from 'child_process';
 import { promisify } from 'util';
 import cliSelect from 'cli-select';
