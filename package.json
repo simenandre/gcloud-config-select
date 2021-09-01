@@ -1,0 +1,34 @@
+{
+  "name": "gcloud-config-select",
+  "version": "1.0.0",
+  "main": "dist/cli.js",
+  "repository": "ssh://git@github.com/cobraz/gcloud-config-select.git",
+  "author": "Simen A. W. Olsen <so@bjerk.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "tsnd --respawn src/cli.ts",
+    "lint": "eslint . --ext .ts,.tsx",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "gcloud-config-select": "dist/cli.js"
+  },
+  "devDependencies": {
+    "@bjerk/eslint-config": "^1.0.0",
+    "@cobraz/prettier-config": "^1.0.1",
+    "@types/jest": "^27.0.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  },
+  "prettier": "@cobraz/prettier-config",
+  "dependencies": {
+    "cli-select": "^1.1.2",
+    "ts-node-dev": "^1.1.8"
+  }
+}
