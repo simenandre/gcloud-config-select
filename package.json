@@ -1,6 +1,6 @@
 {
   "name": "gcloud-config-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/cli.js",
   "repository": "ssh://git@github.com/cobraz/gcloud-config-select.git",
   "author": "Simen A. W. Olsen <so@bjerk.io>",
