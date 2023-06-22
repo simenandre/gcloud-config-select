@@ -19,7 +19,7 @@
   "prettier": "@cobraz/prettier-config",
   "dependencies": {
     "cli-select": "^1.1.2",
-    "ts-node-dev": "^1.1.8"
+    "ts-node-dev": "^2.0.0"
   },
   "devDependencies": {
     "@bjerk/eslint-config": "^1.0.0",
